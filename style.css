@@ -1,0 +1,22 @@
+.nombres{display: flex;}
+
+body{background: linear-gradient(to bottom, red, darkorange, orange, rgb(255, 187, 0),yellow,rgb(251, 125, 142));}
+
+
+img{border-radius: 10px;}
+
+.links{display: flex; justify-content: space-between; width: 1200px;}
+
+button{background-color: rgb(101, 1, 41); border-color: coral; border-width: 4px; border-style: groove; color: rgb(255, 222, 188); padding: 7px; font-size: 16px ; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.link{ font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+a:link{color: rgb(49, 49, 255);}
+
+a:visited{color: rgb(90, 3, 171);}
+
+a:hover{font-size: 50px;}
+
+img:hover{opacity: 0.95;}
+
+button:hover {opacity: 0.96; font-size: 20px; color: rgb(255, 204, 153) ;}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>みかちゃんとねこ</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+<h1>ねこのみかちゃん</h1>
+
+<h3>esta pagina tiene animales y sus 'dionisios' sonidos</h3>
+
+<br>
+<hr>
+<br>
+<div class="links">
+
+    <a href="https://www.pexels.com/search/animal/" class="link"> Fotos</a>
+
+    <a href="https://en.wikipedia.org/wiki/List_of_animal_sounds" class="link">|Sonidos|</a>
+    <a href="https://freeanimalsounds.org/es/descargas/" class="link">|+ Sonidos|</a>
+
+</div>
+<br>
+
+<div class="nombres">
+<audio id ="rafikisonido" src="monkey-scream-6407.mp3"></audio>
+<audio id ="timonsonido" src="Mongoose.mp3"></audio>
+<audio id ="pandasonido" src="pandarojo.mp3"></audio>
+<audio id ="ardillasonido" src="008699545_prev.mp3"></audio>
+<audio id ="gatosonido" src="angry-cat.mp3"></audio>
+
+
+    <div class="nombre">
+        <a href="https://es.wikipedia.org/wiki/Macaca_fuscata">
+        <img src="rafiki.jpg" width="800" height="600">
+    </a>
+        <h3>Un mono de cara roja. tambien conocido como babuino, es el animal que interpreta a Rafiki en el rey leon (1999 - 2000) R.I.P</h3>
+        <button id="boton_rafiki" onclick="rafikiboton()">Sonido de monito aqui</button>
+    </div>
+
+    <div class="nombre">
+        <a href="https://www.britannica.com/animal/meerkat">
+        <img src="timon.jpg"  width="800" height="600">
+    </a>
+        <h3>una suricata. una especie de mangosta y hace el papel de timon en el rey leon (1999 - ?)</h3>
+        <button id="boton_timon" onclick="timonboton()">Sonido de timoncito aqui</button>
+    </div>
+
+    <div class="nombre">
+        <a href="https://es.wikipedia.org/wiki/Ailurus_fulgens">
+        <img src="panda.webp"  width="800" height="600">
+    </a>
+        <h3>el panda rojo es uno de los pocos de su rama de evolucion vivos, es el que  co-interpreta la pelicula Red (2021 - 2021, 2021 - ?)</h3>
+        <button id="panda_boton" onclick = " pandaFuncion() ">Sonido de redcito aqui</button>
+    </div>
+
+    <div class="nombre">
+        <a href="https://es.wikipedia.org/wiki/Ardilla">
+        <img src="ardillaExtra.png"  width="800" height="600">
+    </a>
+        <h3>esta ardilla llamada scat. es tan solo un ardilla gris comun. mientras tanto su ancestro, Scrat hico el co-protaginista en la pelicula Ice age (2.4billones a.c - inmortal)</h3>
+        <button id="boton_scat" onclick="scatboton()">Sonido de ardillita aqui</button>
+    </div>
+
+    <div class="nombre">
+        <a href="https://gatos.plus/gatos-mestizos/">
+        <img src="GATITO.jpg"  width="800" height="600">
+    </a>
+        <h3>este gatito es el gato mas horrendamente comun del universo. sin embargo su tio-tatarabuelo fue el co-protagonista de Ice age (2.4billones a.c - 2.400,050billones a.c) R.I.P </h3>
+        <button id="boton_gato" onclick="gatoboton()">Sonido de gatito aqui</button>
+    </div>
+
+</div>
+
+
+
+
+
+    </center>
+<script src="main.js"></script>
+</body>
+</html>
